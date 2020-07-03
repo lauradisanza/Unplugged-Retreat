@@ -93,6 +93,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
 }
 ul,
 ol {
@@ -115,7 +116,7 @@ p {
   line-height: 1.125em;
 }
 img {
-
+  width: 100%;
 }
 figure {
 
@@ -142,6 +143,7 @@ footer  {
 }
 header  {
   padding: 15px 0;
+  background-color: #202322;
 }
 header .content-wrapper {
   display: flex;
@@ -170,9 +172,11 @@ header nav ul {
 }
 header nav ul li  {
   padding: 0 30px;
+  text-transform: uppercase;
 }
 footer  {
   flex-direction: column;
+  background-color: #202322;
 }
 footer p  {
   margin: 0;
@@ -180,6 +184,7 @@ footer p  {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 footer .contact  {
   margin-bottom: 50px;
@@ -203,12 +208,41 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+}
+h1  {
+  font-size: 3em;
 }
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+aside .form {
+  margin-top: 30px;
+}
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 .features {
   display: flex;
@@ -230,12 +264,14 @@ aside {
 }
 .features p  {
   margin: 0;
+  text-align: center;
 }
 
 .reviews  {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 .reviews h2 {
   margin-bottom: 40px;
@@ -251,12 +287,14 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 .contact-section  {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 .contact-content p {
   margin: 0;
@@ -268,6 +306,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 .faq .content-wrapper {
   display: flex;
@@ -281,6 +320,9 @@ aside {
 }
 .faq-content  {
   margin-bottom: 50px;
+}
+.faq-content h4 {
+  font-size: 1.125em;
 }
 
 /* ==========================================================================
