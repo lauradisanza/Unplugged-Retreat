@@ -201,6 +201,11 @@ footer .social-icons  {
   justify-content: space-between;
   align-items: center;
 }
+footer .social-icons i {
+  font-size: 2.5em;
+  color: #527158;
+  justify-content: space-between;
+}
 footer .social-icons p  {
   display: flex;
   justify-content: center;
