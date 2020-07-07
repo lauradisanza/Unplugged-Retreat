@@ -527,6 +527,9 @@ input[type=button] {
     .mission-content p  {
       width: 45%;
     }
+    .map figure {
+        padding-bottom: 45%;
+    }
     .contact-section .content-wrapper h2  {
       width: 80%;
     }
@@ -588,6 +591,9 @@ input[type=button] {
     .mission h2,
     .contact-section .content-wrapper h2 {
       width: 95%;
+    }
+    .map figure {
+        padding-bottom: 37.5%;
     }
 
       /* FAQ Page */
